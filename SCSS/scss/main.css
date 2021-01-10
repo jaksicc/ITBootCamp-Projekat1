@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.centriraj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#opis {
+  background-image: url(budget1.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+}
+
+#sadrzaj {
+  background-color: rgba(255, 254, 251, 0.795);
+  text-align: center;
+}
+
+#sadrzaj h1 {
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0b0b22;
+}
+
+#sadrzaj div {
+  height: 50px;
+}
+
+#budzet {
+  color: #000;
+  font-size: 30px;
+}
+
+#prihod {
+  color: #4f9905;
+  font-size: 25px;
+}
+
+#rashod {
+  color: red;
+  font-size: 25px;
+}
+
+#forma {
+  height: 100px;
+  background-color: rgba(233, 231, 129, 0.658);
+}
+
+#transakcije {
+  padding: 10px;
+}
+
+select, input[type=text], input[type=number], input[type=submit] {
+  padding: 10px;
+}
+
+#item-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#item-container div {
+  width: 50%;
+  margin-left: 10px;
+}
+
+#item-container ul li {
+  list-style-type: none;
+}
+
+#zeleno {
+  color: #4f9905;
+  font-weight: 100;
+}
+
+#crveno {
+  color: red;
+  font-weight: 100;
+}
+
+li span {
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+}
+
+#prihodLi, #rashodLi {
+  position: relative;
+}
+
+#prihodLi #dugme button, #rashodLi #dugme button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#prihodLi #dugme2 button, #rashodLi #dugme2 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#dugme, #dugme2 {
+  display: none;
+}
+
+#prihodLi:hover #dugme {
+  display: block;
+}
+
+#rashodLi:hover #dugme2 {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

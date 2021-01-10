@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SCSS/scss/main.css">
+</head>
+
+<body>
+    <div class="centriraj" id="opis">
+        <div  id="sadrzaj">
+            <h1 id="naslov">Dostupan budzet u Januaru 2021:</h1>
+            <div class="centriraj" id="budzet">
+                <p id="pBudzet">0</p>
+            </div>
+
+            <div class="centriraj" id="prihod">
+                <p>Prihod <span id="spanPrihod">0</span></p>
+            </div>
+
+            <div class="centriraj" id="rashod">
+                <p>Rashod <span id="spanRashod">0</span> <span id="procenat">0</span></p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="centriraj" id="forma">
+        <form  id="transakcije">
+            <select name="prihod-rashod" id="prihod-rashod">
+                <option value="1">+</option>
+                <option value="2">-</option>
+            </select>
+            <input type="text" name="Opis" placeholder="Opis" id="opis-transakcije" maxlength="17">
+            <input type="number" placeholder="Iznos" id="iznos-transakcije">
+            <input type="submit" value="Potvrdi" id="Potvrdi">
+        </form>
+    </div>
+
+    <div id="item-container">
+        <div id="lista-prihoda">
+            <h2 id="zeleno">PRIHODI</h1>
+                <p><span>OPIS</span> <span style="margin-left: 100px;">IZNOS</span></p>
+            <hr>
+            <ul id="prihodi">
+
+            </ul>
+
+        </div>
+
+        <div id="lista-rashoda">
+            <h2 id="crveno">RASHODI</h1>
+                <p><span>OPIS</span> <span style="margin-left: 100px;">IZNOS</span> <span style="margin-left: 50px;">PROCENAT</span></p>
+            <hr>
+            <ul id="rashodi">
+
+            </ul>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
